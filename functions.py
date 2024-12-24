@@ -23,3 +23,15 @@ def hyperbolic_sine(x, n_terms=10):
     for n in range(n_terms):
         result += x**(2*n + 1) / math.factorial(2*n + 1)
     return result
+
+def hyperbolic_cosine(x, n_terms=10): 
+    """ 
+    Вычисляет гиперболический косинус ch(x) с использованием ряда Тейлора. 
+    :param x: Значение, для которого вычисляется ch(x). 
+    :param n_terms: Количество членов ряда (по умолчанию 10). 
+    :return: Значение ch(x). 
+    """ 
+    result = 0 
+    for n in range(n_terms): 
+        result += x**(2*n) / math.factorial(2*n) 
+    return result
