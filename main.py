@@ -12,7 +12,7 @@ def display_menu():
 
 def get_float_input(prompt):
     """
-    Запрашивает у пользователя число с проверкой.
+    Запрашивает у пользователя число.
     """
     while True:
         try:
