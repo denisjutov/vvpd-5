@@ -97,3 +97,7 @@ repository-name/
 
 - [Документация Python](https://docs.python.org/3/)
 - [Ряд Тейлора на Wikipedia](https://ru.wikipedia.org/wiki/Ряд_Тейлора)
+
+## Фото
+
+![](https://comicvine.gamespot.com/a/uploads/original/7/71975/1753403-cereal_guy_wallpaper_by_8_bitninja.png)
